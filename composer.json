@@ -1,0 +1,14 @@
+{
+    "name": "adrienbrault/analyzer",
+    "autoload": {
+        "psr-0": {
+            "AdrienBrault\\Analyzer": "src/"
+        }
+    },
+    "require": {
+        "nikic/php-parser": "~0.9.4",
+        "symfony/finder": "~2.2",
+        "symfony/console": "~2.2"
+    },
+    "bin": ["abanalyzer"]
+}
