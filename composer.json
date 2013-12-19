@@ -10,5 +10,10 @@
         "symfony/finder": "~2.2",
         "symfony/console": "~2.2"
     },
-    "bin": ["abanalyzer"]
+    "bin": ["abanalyzer"],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.x-dev"
+        }
+    }
 }
